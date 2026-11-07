@@ -1,0 +1,10 @@
+schema: spec-scored
+created: 2026-11-07
+skip_specs: true
+x-score:
+  command: 'python3 tests/score.py'
+  direction: min
+  budget_min: 40
+  target: 10900
+  stall_rounds: 3
+  protected: ["tests/*"]
