@@ -1,0 +1,8 @@
+round	epoch	score	commit	note
+1	1794323352	1000000.00	3be92c8	baseline
+2	1794323413	13606.27	0edcfa1	nearest-neighbour greedy
+3	1794323474	11718.32	7f3e43b	2-opt local search on greedy tour
+4	1794323558	11013.34	6e1ad5a	double-bridge kicks + 2-opt
+5	1794323845	11003.15	b894980	varied kicks (or-opt, random k-opt) + 2-opt
+6	1794326336	10942.32	8740964	more initial tours + segment reverse + multi-fragment kicks
+7	1794326870	10942.32	c834bf0	final
