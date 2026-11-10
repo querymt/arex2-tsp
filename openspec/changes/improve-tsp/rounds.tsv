@@ -1,0 +1,20 @@
+round	epoch	score	commit	note
+1	1794327312	1000000.00	e1c3afc	baseline
+2	1794327383	13145.51	c37a34f	nearest-neighbour construction
+3	1794327426	11454.95	f07e8ec	nearest-neighbour + 2-opt
+4	1794327480	11302.45	4108285	multi-start NN + 2-opt + double bridge
+5	1794327623	11454.95	0f03c6d	add or-opt to local search
+6	1794327836	11039.30	8daeaf3	iterated local search with double bridge + segment reversal
+7	1794327926	11058.09	fda061f	add cheapest insertion construction
+8	1794328017	11256.48	ab1cc03	add 3-opt to local search
+9	1794328098	1000000.00	ba31e67	simulated annealing with 2-opt moves
+10	1794328256	10988.53	ec0ddff	multi-restart with greedy + NN constructions
+11	1794328346	11454.95	da849d8	add or-opt to local search
+12	1794328502	10969.91	f599443	add farthest insertion + multi-reverse perturbation
+13	1794329078	11052.35	d178f54	add randomized 3-opt + random tour construction
+14	1794329203	11023.41	5e72729	faster IL with more iterations
+15	1794329312	11050.86	3f24270	more diverse starts with time division
+16	1794329492	11454.95	feb3a23	exhaustive 3-opt in local search
+17	1794329703	10984.23	dd01b08	diverse perturbations + segment shuffle
+18	1794329809	10969.91	8e526b8	final
+19	1794330050	10969.91	ef422cb	verify final state
