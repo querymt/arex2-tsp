@@ -1,0 +1,5 @@
+round	epoch	score	commit	note
+1	1794330155	1000000.00	a2f5219	baseline
+2	1794330199	29682.33	3eb25cd	angle-spiral tour, valid for all
+3	1794330314	11075.51	e0dee82	2-opt from multiple NN starts
+4	1794330620	1000000.00	f9c3bea	add or-opt (1-3 segment moves) after 2-opt
