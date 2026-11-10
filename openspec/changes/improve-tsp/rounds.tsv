@@ -1,0 +1,14 @@
+round	epoch	score	commit	note
+1	1794335542	1000000.00	4c161ea	baseline
+2	1794335595	29682.33	9943749	valid angular tour (task 1.1)
+3	1794335856	87855.84	2643751	NN heuristic + first-improvement 2-opt (task 1.2)
+4	1794335934	11480.27	83f4acb	fix 2-opt delta sign (round 3 had bug)
+5	1794336780	802286.92	2d13906	add or-opt + double-bridge ILS
+6	1794337174	11149.06	d93ee0f	fast ILS: NN + 2-opt + or-opt + double-bridge
+7	1794337279	11042.74	5230a18	more NN starts + or-opt random perturbations
+8	1794337424	11040.50	ad6be2a	cheapest-insertion starts + multi-candidate LS + ILS
+9	1794337530	11040.50	e1db89d	extend deadline to 1.85s
+10	1794337664	10926.55	27af346	or-opt k<=4 both orientations + composite perturbation
+11	1794337733	10967.75	77a3773	more construction candidates (CI + random insertions + NN)
+12	1794338241	10926.55	4010a2c	or-opt pass split loops (no continue) on restored best
+13	1794338366	10926.55	62ea31f	final
