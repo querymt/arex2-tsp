@@ -1,0 +1,5 @@
+round	epoch	score	commit	note
+1	1794317939	1000000.00	6ae863a	baseline
+2	1794318126	13145.51	6deb745	task1.1 nearest-neighbor construction
+3	1794318906	1000000.00	eeb7b81	2-opt+or-opt with double-bridge ILS, 1.45s deadline
+4	1794319921	11026.22	d8fbff6	fix 2-opt delta; ILS double-bridge, 1.45s deadline
