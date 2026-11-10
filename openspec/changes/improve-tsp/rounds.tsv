@@ -1,0 +1,19 @@
+round	epoch	score	commit	note
+1	1794338720	1000000.00	2f91e0b	baseline
+2	1794338966	70663.56	982f192	task 1.1: valid tour sorted by x
+3	1794339012	12584.55	3e3d0cb	task 1.2: nearest neighbor heuristic
+4	1794339107	11197.75	ceb5fe0	2-opt + random restarts
+5	1794339550	11191.28	a2a75fa	2-opt+3-opt+restarts
+6	1794339632	10995.21	a549487	double-bridge kicks + 2-opt
+7	1794339777	10951.59	7dd1f09	clean 2opt+DB+3opt
+8	1794339855	11000.54	f924ffd	mixed kicks DB+2opt
+9	1794339962	11027.59	2edcd12	simulated annealing + kicks
+10	1794340202	10970.81	0122f89	or-opt fixed + DB kicks
+11	1794340389	10954.77	0586d5b	4-opt + DB kicks
+12	1794340487	11056.47	8eebfd7	seed42 + more NN starts
+13	1794340599	10955.63	576860b	cheapest insertion + NN + DB + 3opt
+14	1794340747	11013.85	31132ee	3opt in consider + more samples
+15	1794340903	10971.58	8ebf93b	varied kick sizes 2/4/6/8
+16	1794341056	10954.77	8c6f0f7	limited 2opt passes on kicks
+17	1794341192	10951.59	b275700	double 3opt polish
+18	1794341259	10954.77	ff1a292	final
