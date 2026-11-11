@@ -1,0 +1,6 @@
+round	epoch	score	commit	note
+1	1794411064	1000000.00	845a0e4	baseline
+2	1794411071	106070.23	4db1fcd	task 1.1: identity tour
+3	1794411097	12725.33	f31224c	task 1.2: nearest neighbour multi-start
+4	1794411186	10774.65	cfd76e0	2-opt + double-bridge ILS
+5	1794411199	10774.65	5ab56b3	final
