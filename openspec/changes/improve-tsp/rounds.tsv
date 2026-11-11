@@ -1,0 +1,8 @@
+round	epoch	score	commit	note
+1	1794410755	1000000.00	e3a9a63	baseline
+2	1794410783	106070.23	5e34417	task 1.1: identity tour, valid
+3	1794410811	12725.33	a2b7614	task 1.2: nearest neighbor, best of 20 starts
+4	1794410858	11223.68	1241e7a	2-opt on best of 10 NN starts
+5	1794410949	10903.54	8be240e	add Or-opt segment relocations to local search
+6	1794410996	10849.88	a354311	iterated local search with seeded double-bridge perturbation
+7	1794411009	10849.88	d9300bc	final
