@@ -1,0 +1,6 @@
+round	epoch	score	commit	note
+1	1794411267	1000000.00	55e8a02	baseline
+2	1794411274	106070.23	774641b	task 1.1: identity tour valid
+3	1794411300	11412.17	e711ca0	task 1.2: nearest-neighbor + full 2-opt
+4	1794411867	10755.83	e92ade4	ILS: don't-look worklist local search + double bridge
+5	1794411884	10755.83	7eee8ea	final
